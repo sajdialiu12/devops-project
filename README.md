@@ -1,17 +1,18 @@
-# DevOps Project 🚀
+# AWS DevOps Deployment Project
 
-This is a DevOps project running a Node.js app inside Docker.
+This project demonstrates a simple DevOps workflow deploying an application to AWS EC2.
 
-## How to Run Locally
+Technologies:
+- AWS EC2
+- GitHub
+- Linux
+- Python
 
-### Build Docker image
-docker build -t devops-project-image .
+Architecture:
+Developer -> GitHub -> AWS EC2 -> Running Application
 
-### Run the container
-docker run -p 8080:4000 devops-project-image
+Deployment:
 
-Visit the app at: http://localhost:8080
-
-## Tech Stack
-- Node.js
-- Docker
+git clone repo
+cd devops-project
+bash scripts/deploy.sh
