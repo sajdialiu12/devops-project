@@ -1,3 +1,7 @@
+## Application Screenshot
+
+![App Running](screenshots/app-running.png)
+
 # AWS DevOps Deployment Project
 
 This project demonstrates a simple DevOps workflow deploying an application to AWS EC2.
